@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="4" name="TestSuite" time="52.182" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\souad\eclipse-Newworkspace\FreeCRMTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\souad\eclipse-Newworkspace\FreeCRMTest"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\souad\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\souad\eclipse-Newworkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4819581244349640002.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\souad\OneDrive\Documents\apache-maven-3.6.3\bin;C:\Users\souad\AppData\Local\Microsoft\WindowsApps;;C:\Users\souad\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\souad"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="souad"/>
+    <property name="java.class.path" value="C:\Users\souad\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\souad\eclipse-Newworkspace\FreeCRMTest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="VerifycontactslabelTest" time="0.104"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="VerifyHomePageTitleTest" time="0.022">
+    <failure message="Cogmento CRM expected:&lt;Cogmento CRM&gt; but was:&lt;Home Page Title not matched&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Cogmento CRM expected:&lt;Cogmento CRM&gt; but was:&lt;Home Page Title not matched&gt;
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+	at com.crm.qa.testcases.HomePageTest.VerifyHomePageTitleTest(HomePageTest.java:40)
+</failure>
+    <system-out>before navigating to:&apos;https://freecrm.com/&apos;
+Navigated to:&apos;https://freecrm.com/&apos;
+Trying to find element by: By.linkText: LOG IN
+Found element by: By.linkText: LOG IN
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (835b41c5427d708acea5fddfc6ba6e47)] -&gt; link text: LOG IN]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (835b41c5427d708acea5fddfc6ba6e47)] -&gt; link text: LOG IN]
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Trying to find element by: By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Found element by: By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (835b41c5427d708acea5fddfc6ba6e47)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (835b41c5427d708acea5fddfc6ba6e47)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31263
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586352424.644][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 08, 2020 9:27:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586352428.693][WARNING]: Timed out connecting to Chrome, retrying...
+[1586352432.893][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586352432.995][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="LoginPageTitleTest" time="0.013"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="SelectSingleContactsByNameTest" time="0.149"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="VerifyUserNamelabelTest" time="0.646"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="CRFMImageTest" time="0.063"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="SelectmultipleContactsByNameTest" time="0.312"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="VerifyContactsLinkTest" time="1.408"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="2.082"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="CreateNewContactTest" time="13.602">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b259ecca984a1af04f7cd46b6c4c555
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b259ecca984a1af04f7cd46b6c4c555
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.crm.qa.pages.ContactsPage.CreateNewContact(ContactsPage.java:43)
+	at com.crm.qa.testcases.ContactsPageTest.CreateNewContactTest(ContactsPageTest.java:68)
+</failure>
+    <system-out>before navigating to:&apos;https://freecrm.com/&apos;
+Navigated to:&apos;https://freecrm.com/&apos;
+Trying to find element by: By.linkText: LOG IN
+Found element by: By.linkText: LOG IN
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; link text: LOG IN]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; link text: LOG IN]
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Trying to find element by: By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Found element by: By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Trying to find element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Found element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Trying to find element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Found element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Trying to find element by: By.xpath: //button[text()=&apos;New&apos;]
+Found element by: By.xpath: //button[text()=&apos;New&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; xpath: //button[text()=&apos;New&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (4b259ecca984a1af04f7cd46b6c4c555)] -&gt; xpath: //button[text()=&apos;New&apos;]]
+Trying to find element by: By.xpath: //input[@name=&apos;first_name&apos;]
+EDxception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4b259ecca984a1af04f7cd46b6c4c555
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 1357
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586352548.382][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 08, 2020 9:29:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586352552.430][WARNING]: Timed out connecting to Chrome, retrying...
+[1586352555.308][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="CreateNewContactTest" time="13.609">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 11d5950011a195b72dcfb1f20dd97cce
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 11d5950011a195b72dcfb1f20dd97cce
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.crm.qa.pages.ContactsPage.CreateNewContact(ContactsPage.java:43)
+	at com.crm.qa.testcases.ContactsPageTest.CreateNewContactTest(ContactsPageTest.java:68)
+</failure>
+    <system-out>before navigating to:&apos;https://freecrm.com/&apos;
+Navigated to:&apos;https://freecrm.com/&apos;
+Trying to find element by: By.linkText: LOG IN
+Found element by: By.linkText: LOG IN
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; link text: LOG IN]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; link text: LOG IN]
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Trying to find element by: By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Found element by: By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Trying to find element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Found element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Trying to find element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Found element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Trying to find element by: By.xpath: //button[text()=&apos;New&apos;]
+Found element by: By.xpath: //button[text()=&apos;New&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; xpath: //button[text()=&apos;New&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (11d5950011a195b72dcfb1f20dd97cce)] -&gt; xpath: //button[text()=&apos;New&apos;]]
+Trying to find element by: By.xpath: //input[@name=&apos;first_name&apos;]
+EDxception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 11d5950011a195b72dcfb1f20dd97cce
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 48572
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586352581.742][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 08, 2020 9:29:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586352585.784][WARNING]: Timed out connecting to Chrome, retrying...
+[1586352588.470][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="CreateNewContactTest" time="4.146"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="CreateNewContactTest" time="13.544">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96fe6b9a49685bb91ba17dc1f8e161c7
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96fe6b9a49685bb91ba17dc1f8e161c7
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.crm.qa.pages.ContactsPage.CreateNewContact(ContactsPage.java:43)
+	at com.crm.qa.testcases.ContactsPageTest.CreateNewContactTest(ContactsPageTest.java:68)
+</failure>
+    <system-out>before navigating to:&apos;https://freecrm.com/&apos;
+Navigated to:&apos;https://freecrm.com/&apos;
+Trying to find element by: By.linkText: LOG IN
+Found element by: By.linkText: LOG IN
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; link text: LOG IN]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; link text: LOG IN]
+Trying to find element by: By.name: email
+Found element by: By.name: email
+Trying to find element by: By.name: password
+Found element by: By.name: password
+Trying to find element by: By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Found element by: By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Trying to find element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Found element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Trying to find element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Found element by: By.xpath: //span[contains(text(), &apos;Contacts&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; xpath: //span[contains(text(), &apos;Contacts&apos;)]]
+Trying to find element by: By.xpath: //button[text()=&apos;New&apos;]
+Found element by: By.xpath: //button[text()=&apos;New&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; xpath: //button[text()=&apos;New&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (96fe6b9a49685bb91ba17dc1f8e161c7)] -&gt; xpath: //button[text()=&apos;New&apos;]]
+Trying to find element by: By.xpath: //input[@name=&apos;first_name&apos;]
+EDxception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-U08S3ANA&apos;, ip: &apos;192.168.1.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\souad\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 96fe6b9a49685bb91ba17dc1f8e161c7
+*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 14326
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586352640.502][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 08, 2020 9:30:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586352644.545][WARNING]: Timed out connecting to Chrome, retrying...
+[1586352647.093][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586352647.303][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586352647.820][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586352648.146][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586352649.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586352649.256][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586352649.358][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586352649.459][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="VerifyDealsLinkTest" time="1.338"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="VerifyTaskLinkTest" time="1.144"/>
+</testsuite>
